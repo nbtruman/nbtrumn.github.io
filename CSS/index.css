@@ -1,0 +1,53 @@
+/* Contents:
+1 - Bio
+2 - Skills
+3 - Portfolio Sample */
+
+/* 1 - Bio Styles */
+
+.container.bio{
+    position: relative;
+    top: 8rem;
+    width: 90%;    
+    min-height: 15rem;
+    max-height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+.text.bio {
+    width: 50%;
+    background-color: #DFF0CE;
+}
+
+.text.bio p {
+    text-align: justify;
+    margin: 2rem;
+    color: #292C26;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 2rem;
+    color: #292C26;
+}
+
+.photo.bio img {
+    border: 10px solid #DFF0CE;
+    border-radius: 50%;
+    max-width: 20rem;
+    max-height: auto;
+}
+
+/* 2 - Skills */
+
+.container.skills {
+    position: relative;
+    top: 12rem;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
