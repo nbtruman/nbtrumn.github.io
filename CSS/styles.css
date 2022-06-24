@@ -10,6 +10,7 @@ html {
 /* Contents:
 1 - Header & Nav
 2 - Footer
+3 - screen sizes
  */
 
 /* 1 - Header & Nav */
@@ -22,6 +23,7 @@ nav {
     top: 0px;
     left: 100%;
     transition: left 1s ease;
+    z-index: 9;
 }
 
 #hamburger {
@@ -46,8 +48,8 @@ nav {
 }
 
 nav ul {
+    width: 100%;
     display: flex;
-    width: inherit;
     justify-content: space-around;
     list-style: none;
 }
@@ -84,4 +86,20 @@ footer p {
     font-size: 16px;
     color: #DFF0CE;
     text-align: center;
+}
+
+/* 3 - screen sizes */
+
+@media only screen and (max-width: 850px){
+    
+    nav ul {
+        justify-content: flex-start;
+    }
+    
+    nav ul li a {
+        font-size: 16px;
+        padding-right: 20px;
+    }
+
+
 }
