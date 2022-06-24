@@ -1,7 +1,13 @@
 /* Contents:
 1 - Bio
-2 - Skills
-3 - Portfolio Sample */
+2 - Skills */
+
+h1 {
+    position: relative;
+    top: 6rem;
+    left: 14rem;
+    font-size: 28px;
+}
 
 /* 1 - Bio Styles */
 
@@ -28,10 +34,11 @@
     color: #292C26;
 }
 
-h1 {
+#about-me {
     font-size: 24px;
     margin: 2rem;
     color: #292C26;
+    text-decoration: underline;
 }
 
 .photo.bio img {
@@ -42,6 +49,14 @@ h1 {
 }
 
 /* 2 - Skills */
+
+#my-skills {
+    position: relative;
+    top: 10rem;
+    left: 14rem;
+    font-size: 24px;
+    text-decoration: underline;
+}
 
 .container.skills {
     position: relative;
